@@ -1,4 +1,6 @@
-function A = siddon_alg(xi, xf, gri)   
+function A = siddon_alg(xi, xf, gri) % Gri is the size of the square 
+                                     % matrix grid (ie length of one side of 
+                                     % the square)
     startpos = xi; % Initial position of ray (both coordinates)
     endpos = xf; % Final position of ray (both coordinates)
     e = 1e-3; % Error margin
